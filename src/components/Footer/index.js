@@ -30,7 +30,7 @@ const Footer = () => {
                <SocialMedia>
                    <SocialMediaWrap>
                        <SocialLogo to="/"><RiGlobeLine/> Darchton </SocialLogo>
-                       <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()}
+                       <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()} 
                        All rights reserved.
                        </WebsiteRights>
                        <SocialIcons>

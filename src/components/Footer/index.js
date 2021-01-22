@@ -30,8 +30,7 @@ const Footer = () => {
                <SocialMedia>
                    <SocialMediaWrap>
                        <SocialLogo to="/"><RiGlobeLine/> Darchton </SocialLogo>
-                       <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()} 
-                       All rights reserved.
+                       <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()} All rights reserved.
                        </WebsiteRights>
                        <SocialIcons>
                            <SocialIconLink href="//" target="_blank" aria-label="Facebook">

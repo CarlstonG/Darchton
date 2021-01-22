@@ -29,8 +29,8 @@ const Footer = () => {
                </FooterLinksContainer>
                <SocialMedia>
                    <SocialMediaWrap>
-                       <SocialLogo to="/"><RiGlobeLine/> Darchton</SocialLogo>
-                       <WebsiteRights>Darchton Soluctions Corp. © {new Date().getFullYear()}
+                       <SocialLogo to="/"><RiGlobeLine/> Darchton </SocialLogo>
+                       <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()}
                        All rights reserved.
                        </WebsiteRights>
                        <SocialIcons>

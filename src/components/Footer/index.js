@@ -33,7 +33,7 @@ const Footer = () => {
                        <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()} All rights reserved.
                        </WebsiteRights>
                        <SocialIcons>
-                           <SocialIconLink href="//" target="_blank" aria-label="Facebook">
+                           <SocialIconLink href="//www.facebook.com/Darchton-Solutions-Corporation-106030111483175" target="_blank" aria-label="Facebook">
                                <FaFacebook/>
                            </SocialIconLink>
                            <SocialIconLink href="//" target="_blank" aria-label="Intagram">

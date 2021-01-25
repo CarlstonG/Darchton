@@ -36,10 +36,10 @@ const Footer = () => {
                            <SocialIconLink href="//www.facebook.com/Darchton-Solutions-Corporation-106030111483175" target="_blank" aria-label="Facebook">
                                <FaFacebook/>
                            </SocialIconLink>
-                           <SocialIconLink href="//" target="_blank" aria-label="Intagram">
+                           <SocialIconLink href="//www.instagram.com/darchton_services/" target="_blank" aria-label="Intagram">
                                <FaInstagram/>
                            </SocialIconLink>
-                           <SocialIconLink href="//" target="_blank" aria-label="Twitter">
+                           <SocialIconLink href="//twitter.com/DarchonServices" target="_blank" aria-label="Twitter">
                                <FaTwitter/>
                            </SocialIconLink>
                            <SocialIconLink href="//" target="_blank" aria-label="LinkedIn">

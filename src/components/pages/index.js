@@ -9,6 +9,7 @@ import Sidebar from '../Sidebar'
 import SubInfo from '../SubInfo'
 import { homeObjTwo } from '../SubInfo/Data'
 
+
 const Home = () => {
     const [ isOpen, setIsOpen] = useState(false)
     const toggle = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             <SubInfo {...homeObjTwo} />
             <Services/>
             <Footer/>
+            
         </>
     )
 }

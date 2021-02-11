@@ -4,7 +4,7 @@
     font-family: 'Raleway', sans-serif;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 3rem 3rem;
+    padding: 5rem 3rem;
 
 }
 
@@ -20,7 +20,7 @@
 
 #testimonials {
  background: url('./images/backgb2.jpeg') no-repeat;
- height: 100vh;
+ height: 1000px;
 }
 #testimonials h2::after{
     content: '';

@@ -8,6 +8,7 @@ import Services from '../Services'
 import Sidebar from '../Sidebar'
 import SubInfo from '../SubInfo'
 import { homeObjTwo } from '../SubInfo/Data'
+import Testimonial from '../Testimonials'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
             <HeroSection/>
             <InfoSection {...homeObjOne}/>
             <SubInfo {...homeObjTwo} />
+            <Testimonial/>
             <Services/>
             <Footer/>
             

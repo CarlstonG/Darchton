@@ -6,6 +6,7 @@ import {RiGlobeLine} from 'react-icons/all'
 import emailjs from 'emailjs-com'
 
 
+
 const Signin = () => {
 
     function sendEmail(e) {
@@ -31,10 +32,13 @@ const Signin = () => {
 
 
     return (
+     
+        
         <Container>
             <FormWrap>
                 <Icon to="/" onMouseEnter={onHover}> {hover ? <ArrowForward />: <ArrowRight/>} <RiGlobeLine/> Darchton</Icon>
-                <FormContent>
+                  <FormContent>
+            
                     <Form onSubmit={sendEmail}>
                         <FormH1>We Will Be In-touch In A Few!</FormH1>
                         <FormLabel htmlFor="for">Full Name</FormLabel>
@@ -47,7 +51,9 @@ const Signin = () => {
                     </Form>
                 </FormContent>
             </FormWrap>
+           
         </Container>
+    
     )
 }
 

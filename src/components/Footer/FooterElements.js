@@ -6,6 +6,15 @@ export const FooterContainer = styled.footer`
 background-color: #101522;
 
 `
+export const ImgBg = styled.img`
+    padding-top: 5px;
+    width:  90px;
+    height: 80px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+`
+
 
 export const FooterWrap = styled.div`
 padding: 48px 24px;

@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react'
-import {FaBars, RiGlobeLine} from 'react-icons/all'
+import {FaBars} from 'react-icons/all'
 import {
     Nav, 
     NavbarContainer, 
     NavLogo, 
+    ImgBg,
     MobileIcon, 
     NavMenu, 
     NavItem, 
@@ -12,11 +13,13 @@ import {
     NavBtnLink
 } from './NavbarElements'
 
+import Darchtonlogo from '../images/Dlogo.png'
+
 const Navbar = ({ toggle }) => {
     const[scrollNav, setScrollNav] = useState(false)
 
     const changeNav = () => {
-        if(window.scrollY >= 80) {
+        if(window.scrollY >= 90) {
             setScrollNav(true)
         } else {
             setScrollNav(false)
@@ -33,7 +36,7 @@ const Navbar = ({ toggle }) => {
     return (
       <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-              <NavLogo to="home"><RiGlobeLine /> Darchton</NavLogo>
+              <NavLogo to="home"><ImgBg src={Darchtonlogo} alt="Logo"/></NavLogo>
               <MobileIcon onClick={toggle}>
                   <FaBars />
               </MobileIcon>

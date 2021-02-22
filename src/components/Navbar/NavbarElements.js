@@ -4,7 +4,7 @@ import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
 background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
-height: 80px;
+height: 90px;
 margin-top: -80px;
 display: flex; 
 justify-content: center;
@@ -33,11 +33,20 @@ export const NavLogo = styled(LinkS)`
     color: RGB(255,101,80);
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     font-weight: bold;
     text-decoration: none;
+`
+
+export const ImgBg = styled.img`
+    padding-top: 5px;
+    width:  90px;
+    height: 80px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 `
 
 export const MobileIcon = styled.div`

@@ -1,11 +1,11 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, RiGlobeLine } from 'react-icons/all'
-import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems,
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/all'
+import {FooterContainer, FooterWrap, FooterLinksContainer, ImgBg, FooterLinksWrapper, FooterLinkItems,
 FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink
 
 
 } from './FooterElements'
-
+import Darchtonlogo from '../images/Dlogo.png'
 
 const Footer = () => {
     return (
@@ -29,7 +29,7 @@ const Footer = () => {
                </FooterLinksContainer>
                <SocialMedia>
                    <SocialMediaWrap>
-                       <SocialLogo to="/"><RiGlobeLine/> Darchton </SocialLogo>
+                       <SocialLogo to="/"> <ImgBg src={Darchtonlogo} alt="Logo"/> </SocialLogo>
                        <WebsiteRights>Darchton Services Corp. © {new Date().getFullYear()} All rights reserved.
                        </WebsiteRights>
                        <SocialIcons>
